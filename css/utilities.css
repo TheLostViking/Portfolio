@@ -26,39 +26,19 @@
 .flexitems > div{
     padding: 1.4rem;
 }
-.gallery{
+
+.section-header{
     background-color: black;
-}
-.section-header{    
-    margin-top: 3rem;
-    padding: 1.4rem;
+    margin-top: 0.5rem;
+    padding: 0.6rem;
     text-align: center;
-    color: var(--primaryText)
+    color: var(--primaryText);
+    font-size: 1rem;
 }
 .second-header{
     margin-top: 0.5rem;
     padding: 0.6rem;
     text-align: center;
     color: var(--blacktext);
-    font-size: 0.75rem;
-}
-
-.flex-grid .row{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 2.4rem;
-}
-
-.flex-grid .column{
-    flex-grow: 25%;
-    max-width: 25%;
-    padding: 0 0.2rem;
-}
-.flex-grid .column img{
-    width: 100%;
-    
-}
-
-.flex-grid .column img:hover{
-   transform: scale(0.9);
+    font-size: 1rem;
 }

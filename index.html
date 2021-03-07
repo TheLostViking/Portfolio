@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/landingPage.css" />
-    <link rel="stylesheet" href="./css/colors.css" />
-    <link rel="stylesheet" href="./css/utilities.css" />
-    <link rel="stylesheet" href="./css/navigation.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Min Portfolio</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/landingPage.css" />
+  <link rel="stylesheet" href="./css/colors.css" />
+  <link rel="stylesheet" href="./css/utilities.css" />
+  <link rel="stylesheet" href="./css/navigation.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;400;700&display=swap" rel="stylesheet" />
+  <title>Min Portfolio</title>
+</head>
+
+<body>
+
+  <div class="modal hidden">
+    <button class="close-modal">&times;</button>
+    <div class="modal-container"></div>
+  </div>
+
+  <main>
     <header class="landing">
       <nav class="navbar">
         <h1 class="logo textPrimary">Alexander Lindhe</h1>
@@ -27,6 +33,7 @@
           <li><a href="#">contact.</a></li>
         </ul>
       </nav>
+
       <div class="content">
         <div id="container">
           <h1>Welcome to my portfolio</h1>
@@ -52,6 +59,7 @@
             inventore, molestiae illum quisquam?
           </p>
         </div>
+
         <div id="Equip">
           <h1>High End Equipment</h1>
           <p>
@@ -61,6 +69,7 @@
             explicabo ipsam vel fuga.
           </p>
         </div>
+
         <div id="Skills">
           <h1>Necessary skills</h1>
           <p>
@@ -71,43 +80,32 @@
           </p>
         </div>
       </div>
-    </section>
 
-    <section id="work" class="gallery flex-grid">
-      <div class="section-header">
-        <h1>Gallery</h1>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="./img/smoke.jpg" alt="smoke" />
-          <img src="./img/leaf.jpg" alt="leaf" />
-        </div>
-        <div class="column">
-          <img src="./img/ekorre.jpg" alt="squirrle" />
-          <img
-            src="./img/starwars.jpg" alt="stormtrooper" />
-        </div>
-        <div class="column">
-          <img src="./img/wedding.jpg" alt ="wedding" />
-          <img src="./img/smallbird.jpg" alt = "smallbird" />
-        </div>        
-        <div class="column">
-          <img src="./img/pride.jpg" alt ="pride" />
-          <img src="./img/stork.jpg" alt = "stork" />
-        </div>
-      </div>
     </section>
+    <div class="section-header">
+      <h1>Gallery</h1>
+    </div>
 
-    <footer id= "main-footer">
-      <div class= "second-header">
+    <section class="gallery">
+    </section>
+  </main>
+  
+  <footer id="main-footer">
+    <div class="second-header">
       <h1>Contact</h1>
     </div>
-      <div class ="container footer-container">
-        <a href ="facebook.com/alexlindhephoto">.facebook</a>
-        <a href ="#">.twitter</a>
-        <div><p>Copyright Sebastian Romedahl &copy 2021. All Rights Reserved.</p></div>
+    <div class="container footer-container">
+      <a href="facebook.com/alexlindhephoto">facebook.</a>
+      <a href="#">twitter.</a>
+      <div>
+        <p>Copyright Sebastian Romedahl &copy 2021. All Rights Reserved.</p>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-  </body>
+  <div class="overlay hidden"></div>
+  <script src="./scripts/img-list.js"></script>
+  <script src="./scripts/gallery.js"></script>
+</body>
+
 </html>
