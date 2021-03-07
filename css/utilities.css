@@ -1,0 +1,64 @@
+.textPrimary{
+    color: var(--primaryText);
+}
+.secondaryText{
+    color: var(--secondaryText);
+}
+.blacktext{
+    color: var(--blacktext);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+  } 
+
+.flexitems{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+ /* Direkt underliggande div*/
+.flexitems > div{
+    padding: 1.4rem;
+}
+.gallery{
+    background-color: black;
+}
+.section-header{    
+    margin-top: 3rem;
+    padding: 1.4rem;
+    text-align: center;
+    color: var(--primaryText)
+}
+.second-header{
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    text-align: center;
+    color: var(--blacktext);
+    font-size: 0.75rem;
+}
+
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2.4rem;
+}
+
+.flex-grid .column{
+    flex-grow: 25%;
+    max-width: 25%;
+    padding: 0 0.2rem;
+}
+.flex-grid .column img{
+    width: 100%;
+    
+}
+
+.flex-grid .column img:hover{
+   transform: scale(0.9);
+}

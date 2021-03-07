@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primaryBG);
+    opacity: 0.8;
+    width: 100%;
+    color: var(--primaryText);
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 2rem;    
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--primaryText);
+    padding: 0.8rem 0.5rem;
+    margin: 0 0.4rem;
+}
+
+.navbar a:hover{
+    border-bottom: solid 2px var(--secondaryText);
+}
+
+.navbar .logo{
+    font-weight: 500;
+}

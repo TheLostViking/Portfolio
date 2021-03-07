@@ -1,0 +1,8 @@
+:root{
+    --primaryText: #f4f4f4;
+    --primaryBG: rgb(48, 46, 46);
+    --secondaryText: rgb(228, 226, 149);
+    --secondaryBG: rgb(114, 114, 112);
+    --blacktext: #000;
+    --max-width: 1920px;
+}
